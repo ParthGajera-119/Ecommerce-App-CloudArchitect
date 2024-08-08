@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px; /* Add padding to prevent cutting off the top content */
+}
+h1 {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.container {
+    display: grid;
+    grid-gap: 70px 20px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.box {
+    width: 100%;
+    background-color: white;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 2px rgb(219, 219, 219);
+}
+.box:hover {
+    box-shadow: 1px 6px 3px 0 rgb(185, 185, 185);
+}
+.container img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.details {
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+.box a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+h3 {
+    font-size: 16px;
+}
+h4 {
+    font-weight: 100;
+}
+h2 {
+    color: rgb(3, 94, 94);
+}
+
+.auth-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.auth-button {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
